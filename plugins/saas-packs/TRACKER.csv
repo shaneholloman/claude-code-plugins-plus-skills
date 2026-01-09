@@ -19,16 +19,16 @@ fireflies,Fireflies.ai,flagship,24,@intentsolutionsio/fireflies-skill-md-pack,pu
 coderabbit,CodeRabbit,flagship,24,@intentsolutionsio/coderabbit-skill-md-pack,published,ccpi-coderabbit,24,24,complete,added,Brex #15 - website added 2026-01-06
 posthog,PostHog,flagship,24,@intentsolutionsio/posthog-skill-md-pack,published,ccpi-posthog,24,24,complete,added,Brex #16 - website added 2026-01-06
 ideogram,Ideogram,flagship,24,@intentsolutionsio/ideogram-skill-md-pack,published,ccpi-ideogram,24,24,complete,added,Brex #17 - website added 2026-01-06
-apollo,Apollo,flagship,24,@intentsolutionsio/apollo-skill-md-pack,reserved,ccpi-apollo,24,0,not_started,not_added,Brex #18
-deepgram,Deepgram,flagship,24,@intentsolutionsio/deepgram-skill-md-pack,reserved,ccpi-deepgram,24,0,not_started,not_added,Brex #19
-juicebox,Juicebox,flagship,24,@intentsolutionsio/juicebox-skill-md-pack,reserved,ccpi-juicebox,24,0,not_started,not_added,Brex #20
-customerio,Customer.io,flagship,24,@intentsolutionsio/customerio-skill-md-pack,reserved,ccpi-customerio,24,0,not_started,not_added,Brex #21
-langchain,LangChain,flagship,24,@intentsolutionsio/langchain-skill-md-pack,reserved,ccpi-langchain,24,0,not_started,not_added,Brex #22
-lindy,Lindy,flagship,24,@intentsolutionsio/lindy-skill-md-pack,reserved,ccpi-lindy,24,0,not_started,not_added,Brex #24
-granola,Granola,flagship,24,@intentsolutionsio/granola-skill-md-pack,reserved,ccpi-granola,24,0,not_started,not_added,Brex #25
-gamma,Gamma,flagship,24,@intentsolutionsio/gamma-skill-md-pack,reserved,ccpi-gamma,24,0,not_started,not_added,Brex #26
-clerk,Clerk,flagship,24,@intentsolutionsio/clerk-skill-md-pack,reserved,ccpi-clerk,24,0,not_started,not_added,Brex #28
-linear,Linear,flagship,24,@intentsolutionsio/linear-skill-md-pack,reserved,ccpi-linear,24,0,not_started,not_added,Brex #29
+apollo,Apollo,flagship,24,@intentsolutionsio/apollo-skill-md-pack,reserved,ccpi-apollo,24,24,complete,added,Brex #18 - website added 2026-01-06
+deepgram,Deepgram,flagship,24,@intentsolutionsio/deepgram-skill-md-pack,reserved,ccpi-deepgram,24,24,complete,added,Brex #19 - website added 2026-01-06
+juicebox,Juicebox,flagship,24,@intentsolutionsio/juicebox-skill-md-pack,reserved,ccpi-juicebox,24,24,complete,added,Brex #20 - website added 2026-01-06
+customerio,Customer.io,flagship,24,@intentsolutionsio/customerio-skill-md-pack,reserved,ccpi-customerio,24,24,complete,added,Brex #21 - website added 2026-01-06
+langchain,LangChain,flagship,24,@intentsolutionsio/langchain-skill-md-pack,reserved,ccpi-langchain,24,24,complete,added,Brex #22 - website added 2026-01-06
+lindy,Lindy,flagship,24,@intentsolutionsio/lindy-skill-md-pack,reserved,ccpi-lindy,24,24,complete,added,Brex #24 - website added 2026-01-06
+granola,Granola,flagship,24,@intentsolutionsio/granola-skill-md-pack,reserved,ccpi-granola,24,24,complete,added,Brex #25 - website added 2026-01-06
+gamma,Gamma,flagship,24,@intentsolutionsio/gamma-skill-md-pack,reserved,ccpi-gamma,24,24,complete,added,Brex #26 - website added 2026-01-06
+clerk,Clerk,flagship,24,@intentsolutionsio/clerk-skill-md-pack,reserved,ccpi-clerk,24,24,complete,added,Brex #28 - website added 2026-01-06
+linear,Linear,flagship,24,@intentsolutionsio/linear-skill-md-pack,reserved,ccpi-linear,24,24,complete,added,Brex #29 - website added 2026-01-06
 clickhouse,ClickHouse,flagship,24,@intentsolutionsio/clickhouse-skill-md-pack,reserved,ccpi-clickhouse,24,0,not_started,not_added,Brex #30
 fondo,Fondo,pro,18,@intentsolutionsio/fondo-skill-md-pack,reserved,ccpi-fondo,18,0,not_started,not_added,Brex #31
 anima,Anima,pro,18,@intentsolutionsio/anima-skill-md-pack,reserved,ccpi-anima,18,0,not_started,not_added,Brex #32

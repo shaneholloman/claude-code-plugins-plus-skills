@@ -5003,6 +5003,220 @@
       }
     },
     {
+      "name": "apollo-pack",
+      "source": "./plugins/saas-packs/apollo-pack",
+      "description": "Complete Apollo integration skill pack with 24 skills covering sales engagement, prospecting, sequencing, analytics, and outbound automation. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "business-tools",
+      "keywords": [
+        "apollo",
+        "sales",
+        "prospecting",
+        "sequences",
+        "outbound",
+        "crm",
+        "sales-engagement",
+        "lead-generation"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "deepgram-pack",
+      "source": "./plugins/saas-packs/deepgram-pack",
+      "description": "Complete Deepgram integration skill pack with 24 skills covering speech-to-text, real-time transcription, voice intelligence, and audio processing. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "deepgram",
+        "speech-to-text",
+        "transcription",
+        "voice",
+        "audio",
+        "asr",
+        "real-time",
+        "voice-ai"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "juicebox-pack",
+      "source": "./plugins/saas-packs/juicebox-pack",
+      "description": "Complete Juicebox integration skill pack with 24 skills covering people data, enrichment, contact search, and AI-powered discovery. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "business-tools",
+      "keywords": [
+        "juicebox",
+        "people-data",
+        "enrichment",
+        "contacts",
+        "search",
+        "data-api",
+        "lead-enrichment"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "customerio-pack",
+      "source": "./plugins/saas-packs/customerio-pack",
+      "description": "Complete Customer.io integration skill pack with 24 skills covering marketing automation, email campaigns, SMS, push notifications, and customer journeys. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "business-tools",
+      "keywords": [
+        "customerio",
+        "customer-io",
+        "marketing",
+        "email",
+        "automation",
+        "campaigns",
+        "sms",
+        "push-notifications"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "langchain-pack",
+      "source": "./plugins/saas-packs/langchain-pack",
+      "description": "Complete LangChain integration skill pack with 24 skills covering chains, agents, RAG pipelines, memory, and LLM application development. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "langchain",
+        "llm",
+        "chains",
+        "agents",
+        "rag",
+        "memory",
+        "ai-applications",
+        "langsmith"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "lindy-pack",
+      "source": "./plugins/saas-packs/lindy-pack",
+      "description": "Complete Lindy integration skill pack with 24 skills covering AI assistants, task automation, workflows, and intelligent automation. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "lindy",
+        "ai-assistant",
+        "automation",
+        "workflows",
+        "tasks",
+        "intelligent-automation"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "granola-pack",
+      "source": "./plugins/saas-packs/granola-pack",
+      "description": "Complete Granola integration skill pack with 24 skills covering AI meeting notes, transcription, summaries, and meeting intelligence. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "granola",
+        "meeting-notes",
+        "transcription",
+        "summaries",
+        "meetings",
+        "ai-notes",
+        "meeting-intelligence"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "gamma-pack",
+      "source": "./plugins/saas-packs/gamma-pack",
+      "description": "Complete Gamma integration skill pack with 24 skills covering AI presentations, document generation, templates, and visual content creation. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "gamma",
+        "presentations",
+        "documents",
+        "ai-generation",
+        "templates",
+        "slides",
+        "visual-content"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "clerk-pack",
+      "source": "./plugins/saas-packs/clerk-pack",
+      "description": "Complete Clerk integration skill pack with 24 skills covering authentication, user management, embeddable UIs, and identity platform. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "clerk",
+        "authentication",
+        "auth",
+        "users",
+        "identity",
+        "sso",
+        "embeddable-ui",
+        "user-management"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "linear-pack",
+      "source": "./plugins/saas-packs/linear-pack",
+      "description": "Complete Linear integration skill pack with 24 skills covering issue tracking, project management, workflows, and team collaboration. Flagship tier vendor pack.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "linear",
+        "issues",
+        "project-management",
+        "tracking",
+        "workflows",
+        "agile",
+        "team-collaboration"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
       "name": "gastown",
       "source": "./plugins/community/gastown",
       "description": "Multi-agent orchestrator for Claude Code. Track work with convoys, sling to polecats. The Cognition Engine for AI-powered software factories.",

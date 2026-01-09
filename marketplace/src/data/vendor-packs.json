@@ -462,6 +462,186 @@
       ],
       "docsUrl": "https://developer.ideogram.ai",
       "dashboardUrl": "https://ideogram.ai"
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "Sales engagement platform with prospecting, sequencing, and analytics",
+      "icon": "target",
+      "color": "#5B21B6",
+      "installCommand": "/plugin install apollo-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["apollo-install-auth", "apollo-hello-world", "apollo-local-dev-loop", "apollo-sdk-patterns", "apollo-core-workflow-a", "apollo-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["apollo-common-errors", "apollo-debug-bundle", "apollo-rate-limits", "apollo-security-basics", "apollo-prod-checklist", "apollo-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["apollo-ci-integration", "apollo-deploy-integration", "apollo-webhooks-events", "apollo-performance-tuning", "apollo-cost-tuning", "apollo-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["apollo-multi-env-setup", "apollo-observability", "apollo-incident-runbook", "apollo-data-handling", "apollo-enterprise-rbac", "apollo-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://apolloplatform.readme.io",
+      "dashboardUrl": "https://app.apollo.io"
+    },
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "Speech-to-text AI with real-time transcription and voice intelligence",
+      "icon": "mic",
+      "color": "#13EF93",
+      "installCommand": "/plugin install deepgram-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["deepgram-install-auth", "deepgram-hello-world", "deepgram-local-dev-loop", "deepgram-sdk-patterns", "deepgram-core-workflow-a", "deepgram-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["deepgram-common-errors", "deepgram-debug-bundle", "deepgram-rate-limits", "deepgram-security-basics", "deepgram-prod-checklist", "deepgram-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["deepgram-ci-integration", "deepgram-deploy-integration", "deepgram-webhooks-events", "deepgram-performance-tuning", "deepgram-cost-tuning", "deepgram-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["deepgram-multi-env-setup", "deepgram-observability", "deepgram-incident-runbook", "deepgram-data-handling", "deepgram-enterprise-rbac", "deepgram-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://developers.deepgram.com",
+      "dashboardUrl": "https://console.deepgram.com"
+    },
+    {
+      "id": "juicebox",
+      "name": "Juicebox",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "People data API for enrichment, search, and AI-powered contact discovery",
+      "icon": "users",
+      "color": "#FF6B35",
+      "installCommand": "/plugin install juicebox-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["juicebox-install-auth", "juicebox-hello-world", "juicebox-local-dev-loop", "juicebox-sdk-patterns", "juicebox-core-workflow-a", "juicebox-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["juicebox-common-errors", "juicebox-debug-bundle", "juicebox-rate-limits", "juicebox-security-basics", "juicebox-prod-checklist", "juicebox-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["juicebox-ci-integration", "juicebox-deploy-integration", "juicebox-webhooks-events", "juicebox-performance-tuning", "juicebox-cost-tuning", "juicebox-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["juicebox-multi-env-setup", "juicebox-observability", "juicebox-incident-runbook", "juicebox-data-handling", "juicebox-enterprise-rbac", "juicebox-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://docs.juicebox.ai",
+      "dashboardUrl": "https://app.juicebox.ai"
+    },
+    {
+      "id": "customerio",
+      "name": "Customer.io",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "Marketing automation platform for email, SMS, and push campaigns",
+      "icon": "mail",
+      "color": "#FFB100",
+      "installCommand": "/plugin install customerio-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["customerio-install-auth", "customerio-hello-world", "customerio-local-dev-loop", "customerio-sdk-patterns", "customerio-primary-workflow", "customerio-core-feature"] },
+        { "name": "Operations & Debugging", "skills": ["customerio-common-errors", "customerio-debug-bundle", "customerio-rate-limits", "customerio-security-basics", "customerio-prod-checklist", "customerio-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["customerio-ci-integration", "customerio-deploy-pipeline", "customerio-webhooks-events", "customerio-performance-tuning", "customerio-cost-tuning", "customerio-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["customerio-multi-env-setup", "customerio-observability", "customerio-load-scale", "customerio-reliability-patterns", "customerio-advanced-troubleshooting", "customerio-known-pitfalls"] }
+      ],
+      "docsUrl": "https://customer.io/docs",
+      "dashboardUrl": "https://fly.customer.io"
+    },
+    {
+      "id": "langchain",
+      "name": "LangChain",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "LLM application framework for chains, agents, and RAG pipelines",
+      "icon": "link",
+      "color": "#1C3C3C",
+      "installCommand": "/plugin install langchain-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["langchain-install-auth", "langchain-hello-world", "langchain-local-dev-loop", "langchain-sdk-patterns", "langchain-core-workflow-a", "langchain-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["langchain-common-errors", "langchain-debug-bundle", "langchain-rate-limits", "langchain-security-basics", "langchain-prod-checklist", "langchain-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["langchain-ci-integration", "langchain-deploy-integration", "langchain-webhooks-events", "langchain-performance-tuning", "langchain-cost-tuning", "langchain-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["langchain-multi-env-setup", "langchain-observability", "langchain-incident-runbook", "langchain-data-handling", "langchain-enterprise-rbac", "langchain-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://python.langchain.com/docs",
+      "dashboardUrl": "https://smith.langchain.com"
+    },
+    {
+      "id": "lindy",
+      "name": "Lindy",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "AI assistant platform for automating tasks and workflows",
+      "icon": "bot",
+      "color": "#4F46E5",
+      "installCommand": "/plugin install lindy-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["lindy-install-auth", "lindy-hello-world", "lindy-local-dev-loop", "lindy-sdk-patterns", "lindy-core-workflow-a", "lindy-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["lindy-common-errors", "lindy-debug-bundle", "lindy-rate-limits", "lindy-security-basics", "lindy-prod-checklist", "lindy-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["lindy-ci-integration", "lindy-deploy-integration", "lindy-webhooks-events", "lindy-performance-tuning", "lindy-cost-tuning", "lindy-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["lindy-multi-env-setup", "lindy-observability", "lindy-incident-runbook", "lindy-data-handling", "lindy-enterprise-rbac", "lindy-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://docs.lindy.ai",
+      "dashboardUrl": "https://app.lindy.ai"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "AI meeting notes with automatic transcription and summaries",
+      "icon": "file-text",
+      "color": "#10B981",
+      "installCommand": "/plugin install granola-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["granola-install-auth", "granola-hello-world", "granola-local-dev-loop", "granola-sdk-patterns", "granola-core-workflow-a", "granola-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["granola-common-errors", "granola-debug-bundle", "granola-rate-limits", "granola-security-basics", "granola-prod-checklist", "granola-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["granola-ci-integration", "granola-deploy-integration", "granola-webhooks-events", "granola-performance-tuning", "granola-cost-tuning", "granola-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["granola-multi-env-setup", "granola-observability", "granola-incident-runbook", "granola-data-handling", "granola-enterprise-rbac", "granola-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://granola.ai/help",
+      "dashboardUrl": "https://app.granola.ai"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "AI presentation and document generator with beautiful templates",
+      "icon": "presentation",
+      "color": "#8B5CF6",
+      "installCommand": "/plugin install gamma-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["gamma-install-auth", "gamma-hello-world", "gamma-local-dev-loop", "gamma-sdk-patterns", "gamma-core-workflow-a", "gamma-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["gamma-common-errors", "gamma-debug-bundle", "gamma-rate-limits", "gamma-security-basics", "gamma-prod-checklist", "gamma-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["gamma-ci-integration", "gamma-deploy-integration", "gamma-webhooks-events", "gamma-performance-tuning", "gamma-cost-tuning", "gamma-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["gamma-multi-env-setup", "gamma-observability", "gamma-incident-runbook", "gamma-data-handling", "gamma-enterprise-rbac", "gamma-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://gamma.app/help",
+      "dashboardUrl": "https://gamma.app"
+    },
+    {
+      "id": "clerk",
+      "name": "Clerk",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "Authentication and user management platform with embeddable UIs",
+      "icon": "shield",
+      "color": "#6C47FF",
+      "installCommand": "/plugin install clerk-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["clerk-install-auth", "clerk-hello-world", "clerk-local-dev-loop", "clerk-sdk-patterns", "clerk-core-workflow-a", "clerk-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["clerk-common-errors", "clerk-debug-bundle", "clerk-rate-limits", "clerk-security-basics", "clerk-prod-checklist", "clerk-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["clerk-ci-integration", "clerk-deploy-integration", "clerk-webhooks-events", "clerk-performance-tuning", "clerk-cost-tuning", "clerk-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["clerk-multi-env-setup", "clerk-observability", "clerk-incident-runbook", "clerk-data-handling", "clerk-enterprise-rbac", "clerk-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://clerk.com/docs",
+      "dashboardUrl": "https://dashboard.clerk.com"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "tier": "flagship",
+      "skillCount": 24,
+      "description": "Issue tracking and project management for software teams",
+      "icon": "layout",
+      "color": "#5E6AD2",
+      "installCommand": "/plugin install linear-pack@claude-code-plugins-plus",
+      "categories": [
+        { "name": "Onboarding & Foundations", "skills": ["linear-install-auth", "linear-hello-world", "linear-local-dev-loop", "linear-sdk-patterns", "linear-core-workflow-a", "linear-core-workflow-b"] },
+        { "name": "Operations & Debugging", "skills": ["linear-common-errors", "linear-debug-bundle", "linear-rate-limits", "linear-security-basics", "linear-prod-checklist", "linear-upgrade-migration"] },
+        { "name": "CI/CD & Deployment", "skills": ["linear-ci-integration", "linear-deploy-integration", "linear-webhooks-events", "linear-performance-tuning", "linear-cost-tuning", "linear-reference-architecture"] },
+        { "name": "Enterprise & Compliance", "skills": ["linear-multi-env-setup", "linear-observability", "linear-incident-runbook", "linear-data-handling", "linear-enterprise-rbac", "linear-migration-deep-dive"] }
+      ],
+      "docsUrl": "https://linear.app/docs",
+      "dashboardUrl": "https://linear.app"
     }
   ],
   "tiers": {
