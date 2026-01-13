@@ -696,6 +696,197 @@ const totalCategories = searchIndex.stats.categories.length;
                 gap: 1rem;
             }
         }
+
+        /* ========================================
+           SAAS SKILL PACKS SECTION
+           ======================================== */
+        .saas-packs-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-dark) 100%);
+        }
+
+        .saas-packs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .saas-packs-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .saas-badge {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: inline-block;
+        }
+
+        .saas-title {
+            color: white;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            margin: 1rem 0 0.5rem;
+            font-weight: 700;
+        }
+
+        .saas-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .saas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .saas-card {
+            background: white;
+            border: 1px solid var(--brand-light-gray);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .saas-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        .saas-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .saas-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .saas-card h3 {
+            color: var(--brand-dark);
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .saas-tier {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--brand-orange);
+        }
+
+        .saas-desc {
+            color: var(--brand-mid-gray);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .saas-commands {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .saas-cmd {
+            background: var(--brand-light-gray);
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--brand-mid-gray);
+            cursor: pointer;
+            transition: background 0.2s;
+            border: none;
+        }
+
+        .saas-cmd:hover {
+            background: var(--brand-light);
+        }
+
+        .saas-cmd.primary {
+            background: var(--brand-dark);
+            color: var(--brand-orange);
+        }
+
+        .saas-cmd.primary:hover {
+            background: #1a1a19;
+        }
+
+        .saas-card.coming-soon {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px dashed rgba(255, 255, 255, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .coming-soon-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .saas-card.coming-soon h3 {
+            color: white;
+            margin: 0 0 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .saas-card.coming-soon p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        .saas-cta {
+            text-align: center;
+        }
+
+        .saas-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: white;
+            color: var(--brand-orange-dark);
+            padding: 0.875rem 1.75rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .saas-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 768px) {
+            .saas-packs-section {
+                padding: 3rem 1.5rem;
+            }
+
+            .saas-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 
     <!-- Schema.org Structured Data -->
@@ -1053,129 +1244,129 @@ const totalCategories = searchIndex.stats.categories.length;
     </section>
 
     <!-- SaaS Skill Packs - Featured -->
-    <section class="saas-packs-section" style="padding: 4rem 2rem; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
-        <div style="max-width: 1200px; margin: 0 auto;">
-            <div style="text-align: center; margin-bottom: 3rem;">
-                <span style="background: rgba(62, 207, 142, 0.2); color: #3ECF8E; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">New Release</span>
-                <h2 style="color: white; font-size: clamp(2rem, 4vw, 2.8rem); margin: 1rem 0 0.5rem; font-weight: 700;">SaaS Skill Packs</h2>
-                <p style="color: rgba(255,255,255,0.8); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+    <section class="saas-packs-section">
+        <div class="saas-packs-container">
+            <div class="saas-packs-header">
+                <span class="saas-badge">New Release</span>
+                <h2 class="saas-title">SaaS Skill Packs</h2>
+                <p class="saas-subtitle">
                     Deep integration packs for your favorite platforms. 30 skills each for complete coverage.
                 </p>
             </div>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="saas-grid">
                 <!-- Supabase Pack -->
-                <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#3ECF8E';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)';">
-                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                        <div style="width: 48px; height: 48px; background: #3ECF8E; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <div class="saas-card" data-accent="#3ECF8E">
+                    <div class="saas-card-header">
+                        <div class="saas-icon" style="background: #3ECF8E;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
                         </div>
                         <div>
-                            <h3 style="color: white; margin: 0; font-size: 1.2rem;">Supabase</h3>
-                            <span style="color: #3ECF8E; font-size: 0.85rem; font-weight: 600;">Flagship+ • 30 Skills</span>
+                            <h3>Supabase</h3>
+                            <span class="saas-tier" style="color: #3ECF8E;">Flagship+ • 30 Skills</span>
                         </div>
                     </div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5;">
+                    <p class="saas-desc">
                         Database, auth, storage, edge functions, realtime subscriptions, and production operations.
                     </p>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: #3ECF8E; cursor: pointer;" onclick="navigator.clipboard.writeText('/plugin install supabase-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install supabase-pack', 2000);">/plugin install supabase-pack</code>
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: rgba(255,255,255,0.6); cursor: pointer;" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/supabase-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/supabase-pack', 2000);">npm i @intentsolutionsio/supabase-pack</code>
+                    <div class="saas-commands">
+                        <code class="saas-cmd primary" onclick="navigator.clipboard.writeText('/plugin install supabase-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install supabase-pack', 2000);">/plugin install supabase-pack</code>
+                        <code class="saas-cmd" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/supabase-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/supabase-pack', 2000);">npm i @intentsolutionsio/supabase-pack</code>
                     </div>
                 </div>
 
                 <!-- Vercel Pack -->
-                <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#fff';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)';">
-                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                        <div style="width: 48px; height: 48px; background: #000; border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <div class="saas-card" data-accent="#000">
+                    <div class="saas-card-header">
+                        <div class="saas-icon" style="background: #000; border: 1px solid var(--brand-light-gray);">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 2L2 19.5h20L12 2z"/></svg>
                         </div>
                         <div>
-                            <h3 style="color: white; margin: 0; font-size: 1.2rem;">Vercel</h3>
-                            <span style="color: #fff; font-size: 0.85rem; font-weight: 600;">Flagship+ • 30 Skills</span>
+                            <h3>Vercel</h3>
+                            <span class="saas-tier">Flagship+ • 30 Skills</span>
                         </div>
                     </div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5;">
+                    <p class="saas-desc">
                         Deployments, edge functions, preview environments, performance optimization, and CI/CD.
                     </p>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: #fff; cursor: pointer;" onclick="navigator.clipboard.writeText('/plugin install vercel-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install vercel-pack', 2000);">/plugin install vercel-pack</code>
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: rgba(255,255,255,0.6); cursor: pointer;" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/vercel-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/vercel-pack', 2000);">npm i @intentsolutionsio/vercel-pack</code>
+                    <div class="saas-commands">
+                        <code class="saas-cmd primary" onclick="navigator.clipboard.writeText('/plugin install vercel-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install vercel-pack', 2000);">/plugin install vercel-pack</code>
+                        <code class="saas-cmd" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/vercel-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/vercel-pack', 2000);">npm i @intentsolutionsio/vercel-pack</code>
                     </div>
                 </div>
 
                 <!-- Sentry Pack -->
-                <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#8b5cf6';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)';">
-                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                        <div style="width: 48px; height: 48px; background: #362D59; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <div class="saas-card" data-accent="#362D59">
+                    <div class="saas-card-header">
+                        <div class="saas-icon" style="background: #362D59;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
                         </div>
                         <div>
-                            <h3 style="color: white; margin: 0; font-size: 1.2rem;">Sentry</h3>
-                            <span style="color: #8b5cf6; font-size: 0.85rem; font-weight: 600;">Flagship+ • 30 Skills</span>
+                            <h3>Sentry</h3>
+                            <span class="saas-tier" style="color: #8b5cf6;">Flagship+ • 30 Skills</span>
                         </div>
                     </div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5;">
+                    <p class="saas-desc">
                         Error tracking, performance monitoring, release management, and production operations.
                     </p>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: #8b5cf6; cursor: pointer;" onclick="navigator.clipboard.writeText('/plugin install sentry-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install sentry-pack', 2000);">/plugin install sentry-pack</code>
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: rgba(255,255,255,0.6); cursor: pointer;" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/sentry-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/sentry-pack', 2000);">npm i @intentsolutionsio/sentry-pack</code>
+                    <div class="saas-commands">
+                        <code class="saas-cmd primary" style="color: #8b5cf6;" onclick="navigator.clipboard.writeText('/plugin install sentry-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install sentry-pack', 2000);">/plugin install sentry-pack</code>
+                        <code class="saas-cmd" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/sentry-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/sentry-pack', 2000);">npm i @intentsolutionsio/sentry-pack</code>
                     </div>
                 </div>
 
                 <!-- Cursor Pack -->
-                <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#8b5cf6';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)';">
-                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                        <div style="width: 48px; height: 48px; background: #000000; border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.2);">
+                <div class="saas-card" data-accent="#8b5cf6">
+                    <div class="saas-card-header">
+                        <div class="saas-icon" style="background: #000; border: 1px solid var(--brand-light-gray);">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                         </div>
                         <div>
-                            <h3 style="color: white; margin: 0; font-size: 1.2rem;">Cursor</h3>
-                            <span style="color: #8b5cf6; font-size: 0.85rem; font-weight: 600;">Flagship+ • 30 Skills</span>
+                            <h3>Cursor</h3>
+                            <span class="saas-tier" style="color: #8b5cf6;">Flagship+ • 30 Skills</span>
                         </div>
                     </div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5;">
+                    <p class="saas-desc">
                         AI code editor with completions, chat, composer, rules config, and IDE optimization.
                     </p>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: #8b5cf6; cursor: pointer;" onclick="navigator.clipboard.writeText('/plugin install cursor-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install cursor-pack', 2000);">/plugin install cursor-pack</code>
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: rgba(255,255,255,0.6); cursor: pointer;" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/cursor-skill-md-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/cursor-skill-md-pack', 2000);">npm i @intentsolutionsio/cursor-skill-md-pack</code>
+                    <div class="saas-commands">
+                        <code class="saas-cmd primary" style="color: #8b5cf6;" onclick="navigator.clipboard.writeText('/plugin install cursor-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install cursor-pack', 2000);">/plugin install cursor-pack</code>
+                        <code class="saas-cmd" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/cursor-skill-md-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/cursor-skill-md-pack', 2000);">npm i @intentsolutionsio/cursor-skill-md-pack</code>
                     </div>
                 </div>
 
                 <!-- OpenRouter Pack -->
-                <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#6366f1';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(255,255,255,0.1)';">
-                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
-                        <div style="width: 48px; height: 48px; background: #6366f1; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <div class="saas-card" data-accent="#6366f1">
+                    <div class="saas-card-header">
+                        <div class="saas-icon" style="background: #6366f1;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
                         </div>
                         <div>
-                            <h3 style="color: white; margin: 0; font-size: 1.2rem;">OpenRouter</h3>
-                            <span style="color: #6366f1; font-size: 0.85rem; font-weight: 600;">Flagship+ • 30 Skills</span>
+                            <h3>OpenRouter</h3>
+                            <span class="saas-tier" style="color: #6366f1;">Flagship+ • 30 Skills</span>
                         </div>
                     </div>
-                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5;">
+                    <p class="saas-desc">
                         Multi-model LLM gateway with 100+ models, fallbacks, routing, and OpenAI compatibility.
                     </p>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: #6366f1; cursor: pointer;" onclick="navigator.clipboard.writeText('/plugin install openrouter-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install openrouter-pack', 2000);">/plugin install openrouter-pack</code>
-                        <code style="background: rgba(0,0,0,0.3); padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.8rem; color: rgba(255,255,255,0.6); cursor: pointer;" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/openrouter-skill-md-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/openrouter-skill-md-pack', 2000);">npm i @intentsolutionsio/openrouter-skill-md-pack</code>
+                    <div class="saas-commands">
+                        <code class="saas-cmd primary" style="color: #6366f1;" onclick="navigator.clipboard.writeText('/plugin install openrouter-pack@claude-code-plugins-plus'); this.textContent='Copied!'; setTimeout(() => this.textContent='/plugin install openrouter-pack', 2000);">/plugin install openrouter-pack</code>
+                        <code class="saas-cmd" onclick="navigator.clipboard.writeText('npm i @intentsolutionsio/openrouter-skill-md-pack'); this.textContent='Copied!'; setTimeout(() => this.textContent='npm i @intentsolutionsio/openrouter-skill-md-pack', 2000);">npm i @intentsolutionsio/openrouter-skill-md-pack</code>
                     </div>
                 </div>
 
                 <!-- Coming Soon -->
-                <div style="background: rgba(255,255,255,0.02); border: 1px dashed rgba(255,255,255,0.2); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                    <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">📦</div>
-                    <h3 style="color: white; margin: 0 0 0.5rem; font-size: 1.1rem;">+45 More Packs</h3>
-                    <p style="color: rgba(255,255,255,0.5); font-size: 0.85rem; margin: 0;">
+                <div class="saas-card coming-soon">
+                    <div class="coming-soon-icon">📦</div>
+                    <h3>+45 More Packs</h3>
+                    <p>
                         Notion, LangChain, Clerk, PostHog, Linear, Obsidian, and more coming soon
                     </p>
                 </div>
             </div>
 
-            <div style="text-align: center;">
-                <a href="/learn/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: #3ECF8E; color: #000; padding: 0.875rem 1.75rem; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 1rem; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 20px rgba(62,207,142,0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+            <div class="saas-cta">
+                <a href="/learn/" class="saas-button">
                     Browse All Packs
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
