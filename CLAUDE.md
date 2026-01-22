@@ -35,7 +35,7 @@ cd marketplace/ && npm run dev      # Dev server at localhost:4321
 
 # Validation
 ./scripts/validate-all-plugins.sh plugins/[category]/[name]/
-python3 scripts/validate-skills-schema.py   # 2025 skills schema + grading
+python3 scripts/validate-skills-schema.py   # 2026 skills schema + grading
 ```
 
 ## Two Catalog System (Critical)
@@ -69,7 +69,7 @@ plugins/mcp/[plugin-name]/
 └── .mcp.json
 ```
 
-### SKILL.md Frontmatter (2025 Spec)
+### SKILL.md Frontmatter (2026 Spec)
 ```yaml
 ---
 name: skill-name

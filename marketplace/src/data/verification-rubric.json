@@ -104,7 +104,7 @@
         {
           "id": "schema-compliant",
           "name": "Schema Compliant",
-          "description": "All components follow 2025 schema standards (YAML frontmatter, required fields)",
+          "description": "All components follow 2026 schema standards (YAML frontmatter, required fields)",
           "points": 7,
           "required": true,
           "validationMethod": "automated",

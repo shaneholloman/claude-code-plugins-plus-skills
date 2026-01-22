@@ -30,7 +30,7 @@ This plugin ensures secure, production-ready CI/CD pipelines for Vertex AI Agent
 ### Skills (Auto-Activating)
 - **gh-actions-validator**: Validates and enforces GitHub Actions best practices
   - **Tool Permissions**: Read, Write, Edit, Grep, Glob, Bash
-  - **Version**: 1.0.0 (2025 schema compliant)
+  - **Version**: 1.0.0 (2026 schema compliant)
 
 ### Hooks
 - **PreToolUse**: Validates workflow files before writing/editing

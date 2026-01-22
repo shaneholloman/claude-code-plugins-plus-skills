@@ -207,7 +207,7 @@ resource "google_vertex_ai_reasoning_engine" "agent" {
 ### Skills (Auto-Activating)
 - **validator-expert**: Triggers on "validate deployment", "production readiness check", "security audit"
   - **Tool Permissions**: Read, Grep, Glob, Bash (read-only analysis)
-  - **Version**: 1.0.0 (2025 schema compliant)
+  - **Version**: 1.0.0 (2026 schema compliant)
 
 ## Quick Start
 

@@ -192,7 +192,7 @@ agent = ReasoningEngine.create(
 ### Skills (Auto-Activating)
 - **vertex-engine-inspector**: Triggers on "inspect agent engine", "validate deployment"
   - **Tool Permissions**: Read, Grep, Glob, Bash (read-only)
-  - **Version**: 1.0.0 (2025 schema compliant)
+  - **Version**: 1.0.0 (2026 schema compliant)
 
 ## Quick Start
 
@@ -770,4 +770,4 @@ MIT
 
 ## Version
 
-1.0.0 (2025) - Agent Engine GA support with comprehensive inspection capabilities
+1.0.0 (2026) - Agent Engine GA support with comprehensive inspection capabilities

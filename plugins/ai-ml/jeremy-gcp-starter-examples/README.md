@@ -29,7 +29,7 @@ This plugin provides instant access to production-ready code examples from 6 off
 ### Skills (Auto-Activating)
 - **gcp-examples-expert**: Triggers on "show adk example", "genkit starter template", "vertex ai code sample"
   - **Tool Permissions**: Read, Write, Edit, Grep, Glob, Bash
-  - **Version**: 1.0.0 (2025 schema compliant)
+  - **Version**: 1.0.0 (2026 schema compliant)
 
 ## Quick Start
 

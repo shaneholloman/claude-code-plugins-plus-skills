@@ -229,7 +229,7 @@ resource "google_vertex_ai_reasoning_engine" "adk_agent" {
 ### Skills (Auto-Activating)
 - **a2a-protocol-manager**: Triggers on "communicate with ADK agent", "orchestrate agents", "send task to agent"
   - **Tool Permissions**: Read, Bash, Write, Grep (for agent communication)
-  - **Version**: 1.0.0 (2025 schema compliant)
+  - **Version**: 1.0.0 (2026 schema compliant)
 
 ## Quick Start
 

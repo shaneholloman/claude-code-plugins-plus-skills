@@ -21,7 +21,7 @@ Firebase Genkit Pro is a comprehensive Claude Code plugin providing expert guida
 - **genkit-production-expert**: Automatically activates for Genkit-related tasks
   - **Trigger phrases**: "create genkit flow", "implement RAG", "deploy genkit", "gemini integration"
   - **Allowed tools**: Read, Write, Edit, Grep, Glob, Bash
-  - **Version**: 1.0.0 (2025 schema compliant)
+  - **Version**: 1.0.0 (2026 schema compliant)
 
 ## Latest Genkit Versions Supported
 

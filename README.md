@@ -4,7 +4,7 @@
 [![CLI](https://img.shields.io/badge/CLI-ccpi-blueviolet?logo=npm)](https://www.npmjs.com/package/@intentsolutionsio/ccpi)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-739%20Skills-orange?logo=sparkles)](000-docs/247-OD-CHNG-changelog.md)
 [![Plugins](https://img.shields.io/badge/Total%20Plugins-270-blue)](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
-[![2025 Schema](https://img.shields.io/badge/2025%20Schema-Compliant-success?logo=checkmarx)](tutorials/skills/05-skill-validation.ipynb)
+[![2026 Schema](https://img.shields.io/badge/2026%20Schema-Compliant-success?logo=checkmarx)](tutorials/skills/05-skill-validation.ipynb)
 [![Tool Permissions](https://img.shields.io/badge/Tool%20Permissions-Secured-blueviolet?logo=shield)](tutorials/skills/02-skill-anatomy.ipynb)
 [![Interactive Tutorials](https://img.shields.io/badge/Tutorials-11%20Notebooks-yellow?logo=jupyter)](000-docs/185-MS-INDX-tutorials.md)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jeremylongshore/claude-code-plugins-plus-skills/blob/main/tutorials/)
@@ -185,7 +185,7 @@ Agent Skills are intelligent automation tools that Claude Code can invoke automa
 - **🔍 SEO Advantage:** "Claude Skills" gets 3x more searches than "Claude Plugins"
 - **🎯 Auto-Activation:** No need to remember commands - Skills trigger automatically
 - **🛡️ Tool Permissions:** Fine-grained control over what each skill can do
-- **📈 Future-Proof:** Aligned with Anthropic's 2025 vision for AI agents
+- **📈 Future-Proof:** Aligned with Anthropic's 2026 vision for AI agents
 
 ### Featured Skills Categories
 - **🔧 DevOps Skills:** Automated CI/CD, deployment, monitoring
@@ -198,7 +198,7 @@ Agent Skills are intelligent automation tools that Claude Code can invoke automa
 ### Quick Stats
 - **739 Total Skills:** 500 standalone + 239 embedded in plugins
 - **20 Standalone Categories:** DevOps, Security, ML, Data, API, and more
-- **2025 Schema:** Validated against Anthropic standards
+- **2026 Schema:** Validated against Anthropic standards
 - **Average skill size:** 3.2KB of intelligent automation
 
 ---
@@ -303,7 +303,7 @@ Skill activates → Generates playbook → Ready to deploy
 - ✅ **One skill per plugin** - Comprehensive instruction manual
 - ✅ **Only for installed plugins** - Not for discovering new ones
 
-**Status:** 739 skills deployed! 500 standalone skills across 20 categories + 239 embedded in plugins. All validated against 2025 schema.
+**Status:** 739 skills deployed! 500 standalone skills across 20 categories + 239 embedded in plugins. All validated against 2026 schema.
 
 **Resources:**
 - [Internal Guide: How Agent Skills Work →](backups/HOW_AGENT_SKILLS_WORK.md)
