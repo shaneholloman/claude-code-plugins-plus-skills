@@ -2217,6 +2217,31 @@
       }
     },
     {
+      "name": "brand-strategy-framework",
+      "source": "./plugins/business-tools/brand-strategy-framework",
+      "description": "A 7-part brand strategy framework for building comprehensive brand foundations - the same methodology top agencies use with Fortune 500 clients.",
+      "version": "1.0.0",
+      "category": "business-tools",
+      "keywords": [
+        "brand-strategy",
+        "marketing",
+        "branding",
+        "positioning",
+        "messaging",
+        "brand-guidelines",
+        "audience-architecture",
+        "brand-identity"
+      ],
+      "author": {
+        "name": "Rowan Brooks",
+        "email": "rowanbrooks100@github.com"
+      },
+      "repository": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+      "components": {
+        "skills": 1
+      }
+    },
+    {
       "name": "experiment-tracking-setup",
       "source": "./plugins/ai-ml/experiment-tracking-setup",
       "description": "Set up ML experiment tracking",

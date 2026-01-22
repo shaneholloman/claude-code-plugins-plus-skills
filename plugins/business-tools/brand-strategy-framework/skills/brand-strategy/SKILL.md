@@ -1,10 +1,13 @@
 ---
 name: brand-strategy
-description: "A 7-part brand strategy framework for building comprehensive brand foundations. Use when users ask to: (1) Create or develop a brand strategy, (2) Build a brand brief or brand guidelines, (3) Define brand positioning, messaging, or audience, (4) Work on brand identity or brand architecture, (5) Develop a go-to-market brand plan, or when users mention 'brand truth', 'audience architecture', 'messaging framework', or similar strategic branding terms."
+description: |
+  A 7-part brand strategy framework for building comprehensive brand foundations.
+  Trigger with phrases like "create brand strategy", "build brand brief", "define brand positioning",
+  "brand messaging", "audience architecture", "brand truth", or "go-to-market brand plan".
+version: 1.0.0
+author: Rowan Brooks <rowanbrooks100@github.com>
 license: MIT
-metadata:
-  author: Rowan Brooks
-  version: "1.0"
+allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 
 # Brand Strategy Framework
